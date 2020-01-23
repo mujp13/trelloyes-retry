@@ -3,11 +3,8 @@ import Card from './Card';
 
 export default class List extends React.Component {
   
-  
   render() {
-    const cards = store.map((_,i) =>
-      <Card id={a} title={title} />
-    )
+
 
     return(
       <section className="List">
@@ -15,7 +12,7 @@ export default class List extends React.Component {
           <h2>First List</h2>
         </header>
         <div className="List-cards">
-          {cards}
+          <Card />
         </div>
       </section>
     )

@@ -2,7 +2,7 @@ import React from 'react';
 import List from './List';
 
 function App() {
-
+  console.log(props)
   return (
     <main className='App'>
       <header className="App-header">
